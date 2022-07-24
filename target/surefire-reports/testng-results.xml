@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-24T11:04:11 IST" name="Validation" finished-at="2022-07-24T11:07:04 IST" duration-ms="173063">
+    <groups>
+    </groups>
+    <test started-at="2022-07-24T11:04:11 IST" name="Test" finished-at="2022-07-24T11:05:11 IST" duration-ms="60333">
+      <class name="Framework_E2E.Validate_NavBar">
+        <test-method is-config="true" signature="intliaze()[pri:0, instance:Framework_E2E.Validate_NavBar@46cdf8bd]" started-at="2022-07-24T11:04:11 IST" name="intliaze" finished-at="2022-07-24T11:05:08 IST" duration-ms="57703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intliaze -->
+        <test-method signature="navbar()[pri:0, instance:Framework_E2E.Validate_NavBar@46cdf8bd]" started-at="2022-07-24T11:05:08 IST" name="navbar" finished-at="2022-07-24T11:05:10 IST" duration-ms="1843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navbar -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Framework_E2E.Validate_NavBar@46cdf8bd]" started-at="2022-07-24T11:05:10 IST" name="teardown" finished-at="2022-07-24T11:05:11 IST" duration-ms="669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Framework_E2E.Validate_NavBar -->
+    </test> <!-- Test -->
+    <test started-at="2022-07-24T11:04:11 IST" name="validation" finished-at="2022-07-24T11:07:04 IST" duration-ms="173063">
+      <class name="Framework_E2E.Homepage">
+        <test-method is-config="true" signature="intliaze()[pri:0, instance:Framework_E2E.Homepage@35dab4eb]" started-at="2022-07-24T11:04:11 IST" name="intliaze" finished-at="2022-07-24T11:05:09 IST" duration-ms="57858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intliaze -->
+        <test-method signature="baseNavigation(java.lang.String,java.lang.String)[pri:0, instance:Framework_E2E.Homepage@35dab4eb]" started-at="2022-07-24T11:05:09 IST" name="baseNavigation" data-provider="getData" finished-at="2022-07-24T11:06:27 IST" duration-ms="78824" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nikhilravi9847@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseNavigation -->
+        <test-method signature="baseNavigation(java.lang.String,java.lang.String)[pri:0, instance:Framework_E2E.Homepage@35dab4eb]" started-at="2022-07-24T11:06:27 IST" name="baseNavigation" data-provider="getData" finished-at="2022-07-24T11:07:03 IST" duration-ms="35729" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[akhilravi9847@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseNavigation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Framework_E2E.Homepage@35dab4eb]" started-at="2022-07-24T11:07:03 IST" name="teardown" finished-at="2022-07-24T11:07:04 IST" duration-ms="593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Framework_E2E.Homepage -->
+    </test> <!-- validation -->
+  </suite> <!-- Validation -->
+</testng-results>
